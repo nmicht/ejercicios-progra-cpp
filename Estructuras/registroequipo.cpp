@@ -3,6 +3,7 @@
 
 using namespace std;
 
+//Se declara la estructura
 struct a{
 	string equipo;
 	string director;
@@ -11,10 +12,12 @@ struct a{
 	bool tiene_porra;
 };
 
+//Creo un tipo de dato registro_equio con la forma de la estructura a
 typedef a registro_equipo;
 
 
 int main(){
+	//Creo dos arreglos del tipo registro_equipo
 	registro_equipo grupoA[6], grupoB[4];
 
 	for(int i=0; i<6; i++){
